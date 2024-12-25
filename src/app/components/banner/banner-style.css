@@ -1,0 +1,8 @@
+.banner-container {
+    background: #008B5D;
+    display: flex;
+    padding: 24px;
+    gap: 16px;
+    border-radius: 8px;
+    color: white;
+}

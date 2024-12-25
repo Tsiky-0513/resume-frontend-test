@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("../fonts/Gilroy-Medium.ttf") format("truetype");
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #4C4C55;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  font-family: "Gilroy-Medium", sans-serif;
+
+}
+
+.left-container {
+  width: 21rem;
+  height: 100vh;
+}
+
+.right-container {
+  padding: 32px;
+  gap: 32px;
+  display: flex;
+  flex-direction: column;
+}
