@@ -1,0 +1,79 @@
+.input-container {
+    position: relative;
+    width: 100%;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px 10px 10px 5px;
+    border: 2px solid #E3E3E4;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    transition: all 0.2s ease-in-out;
+}
+
+.input-container label {
+    position: absolute;
+    top: 12px;
+    left: 5px;
+    font-size: 14px;
+    pointer-events: none;
+    transition: all 0.2s ease-in-out;
+    background-color: white;
+    color: #4C4C55;
+    padding: 0 5px;
+}
+
+.input-container input:focus+label,
+.input-container input:not(:placeholder-shown)+label {
+    top: -10px;
+    left: 5px;
+    font-size: 12px;
+}
+
+.error label {
+    color: red;
+}
+
+.error input {
+    border: 2px solid red;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 36px;
+    width: 100%;
+}
+
+.half-width {
+    width: 48%;
+}
+
+.full-width {
+    grid-column: span 2;
+}
+
+.full-width input {
+    width: 100%;
+}
+
+.button-container {
+    grid-column: span 2;
+}
+
+.description-container {
+    grid-column: span 2;
+}
+
+.save-button {
+    background-color: #1688FE; /* Google blue color */
+    color: #fff; /* White text */
+    padding: 13px 76px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    font-size: 15px;
+  }

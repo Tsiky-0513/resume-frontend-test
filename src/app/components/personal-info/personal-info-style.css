@@ -1,0 +1,22 @@
+.text-personal-info {
+    font-size: 24px;
+    padding: 0 6px ;
+}
+
+.personal-info-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.form-container {
+    width: 80%;
+}
+
+.image-user {
+    border-radius: 50%;
+}
+
+.image-personal-info {
+    padding: 0px 30px;
+}

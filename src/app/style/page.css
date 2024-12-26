@@ -1,0 +1,6 @@
+.personal-info {
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 37px;
+}
