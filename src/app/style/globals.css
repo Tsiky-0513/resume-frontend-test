@@ -60,7 +60,14 @@ body {
 
 @media screen and (max-width:845px) {
   .right-container {
-    padding-left: 120px;
-    padding-right: 25px;
+    padding: 12px;
+  }
+  .left-container {
+    width: 0;
+  }
+
+  .open-menu .sidebar-container{
+    left: 0!important;
   }
 }
+

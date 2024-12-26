@@ -49,3 +49,34 @@
     height: 100vh;
 
 }
+
+.menu-mobile{
+    display: none;
+}
+
+@media screen and (max-width:845px) {
+    .logo-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-mobile{
+        display: initial;
+        display: initial;
+        position: fixed;
+        right: 0;
+        background-color: #fff;
+        padding: 8px 10px;
+        padding-bottom: 8px;
+        width: 50px;
+        cursor: pointer;
+        height: 33px;
+        justify-content: center;
+    }
+
+    .sidebar-container {
+        left: -215px;
+    }
+
+
+}

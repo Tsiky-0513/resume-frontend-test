@@ -17,8 +17,8 @@ export function ShowProfile() {
             <div className="confirmation-container">
                 <h3>Delete account</h3>
                 <p>
-                    If you delete your account, you'll be permanently removing it from our
-                    systems - you can't undo it.
+                    If you delete your account, you&apos;ll be permanently removing it from our
+                    systems - you can&apos;t undo it.
                 </p>
                 <button className="delete-button">Yes, Delete my account</button>
             </div>

@@ -47,42 +47,42 @@ export default function CustomForm() {
       <div className={`input-container  ${errors.firstName?.message ? 'error':''}`}>
         <input id="firstName" type="text" {...register('firstName')} />
         <label htmlFor="firstName">Fist Name</label>
-        <p style={{ color: 'red' }}>{errors.firstName?.message}</p>
+        <small style={{ color: 'red' }}>{errors.firstName?.message}</small>
       </div>
       <div className={`input-container  ${errors.lastName?.message ? 'error':''}`}>
         <input id="lastName" type="text" {...register('lastName')} />
         <label htmlFor="lastName">Last Name</label>
-        <p style={{ color: 'red' }}>{errors.lastName?.message}</p>
+        <small style={{ color: 'red' }}>{errors.lastName?.message}</small>
       </div>
       <div className={`input-container  ${errors.city?.message ? 'error':''}`}>
         <input id="city" type="text" {...register('city')} />
         <label htmlFor="city">City</label>
-        <p style={{ color: 'red' }}>{errors.city?.message}</p>
+        <small style={{ color: 'red' }}>{errors.city?.message}</small>
       </div>
       <div className={`input-container  ${errors.postalCode?.message ? 'error':''}`}>
         <input id="postalCode" type="text" {...register('postalCode')} />
         <label htmlFor="postalCode">Postal Code</label>
-        <p style={{ color: 'red' }}>{errors.postalCode?.message}</p>
+        <small style={{ color: 'red' }}>{errors.postalCode?.message}</small>
       </div>
       <div className={`input-container full-width ${errors.address?.message ? 'error':''}`}>
         <input id="address" type="text" {...register('address')} />
         <label htmlFor="address">Address</label>
-        <p style={{ color: 'red' }}>{errors.address?.message}</p>
+        <small style={{ color: 'red' }}>{errors.address?.message}</small>
       </div>
       <div className={`input-container  ${errors.email?.message ? 'error':''}`}>
         <input id="email" type="email" {...register('email')} />
         <label htmlFor="email">Email</label>
-        <p style={{ color: 'red' }}>{errors.email?.message}</p>
+        <small style={{ color: 'red' }}>{errors.email?.message}</small>
       </div>
       <div className={`input-container  ${errors.phone?.message ? 'error':''}`}>
         <input id="phone" type="text" {...register('phone')} />
         <label htmlFor="phone">Phone</label>
-        <p style={{ color: 'red' }}>{errors.phone?.message}</p>
+        <small style={{ color: 'red' }}>{errors.phone?.message}</small>
       </div>
       <div className={`input-container  ${errors.password?.message ? 'error':''}`}>
         <input id="password" type="password" {...register('password')} />
         <label htmlFor="password">Password</label>
-        <p style={{ color: 'red' }}>{errors.password?.message}</p>
+        <small style={{ color: 'red' }}>{errors.password?.message}</small>
       </div>
 
       <div className='description-container'>
