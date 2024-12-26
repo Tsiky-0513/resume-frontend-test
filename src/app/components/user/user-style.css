@@ -1,11 +1,17 @@
 .user-container {
     display: flex;
-    padding: 16px;
-    justify-content: space-between;
+    padding: 5px 0px 5px 16px;
+    justify-content: left;
+    border-top: 1px solid #ECECED;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    background-color: white;
 }
 
 .user-info-container {
     display: flex;
     align-items: center;
     gap: 12px;
+    width: 89%;
 }

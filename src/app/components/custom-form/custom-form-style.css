@@ -12,6 +12,7 @@
     font-size: 16px;
     color: #333;
     transition: all 0.2s ease-in-out;
+    height: 50px;
 }
 
 .input-container label {
@@ -44,7 +45,7 @@
 .form {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 36px;
+    gap: 25px;
     width: 100%;
 }
 
@@ -69,11 +70,21 @@
 }
 
 .save-button {
-    background-color: #1688FE; /* Google blue color */
-    color: #fff; /* White text */
-    padding: 13px 76px; /* Adjust padding as needed */
+    background-color: #1688FE;
+    color: #fff;
+    padding: 13px 76px;
     border: none;
-    border-radius: 5px; /* Rounded corners */
+    border-radius: 5px;
     cursor: pointer;
     font-size: 15px;
-  }
+}
+
+
+@media screen and (max-width : 845px) {
+    .form {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        z-index: -1;
+    }
+}

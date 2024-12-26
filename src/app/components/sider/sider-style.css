@@ -6,6 +6,7 @@
 .logo-container {
     padding: 12px 8px;
     border-bottom: 1px solid #ECECED;
+    background-color: white;
 }
 
 .menu-container {
@@ -13,6 +14,9 @@
     flex-direction: column;
     padding: 8px 4px;
     gap: 2px;
+    overflow-y: auto;
+    height: 89vh;
+    background: white;
 }
 
 .menu-item {
@@ -34,5 +38,14 @@
 }
 
 .board span{
-    width: 79%;
+    width: 80%;
+}
+
+.sidebar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right: 1px solid #ECECED;
+    height: 100vh;
+
 }

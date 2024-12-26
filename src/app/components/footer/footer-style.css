@@ -1,0 +1,13 @@
+
+.link-container {
+    padding: 17px 0;
+    gap: 32px;
+    display: flex;
+    border-top: 1px solid #E3E3E4;
+}
+
+.link-footer {
+    font-size: 14px;
+    color: #595964;
+    font-family: 'Gilroy-Regular';
+}

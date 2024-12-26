@@ -21,6 +21,12 @@ export const MENUS: Menu[] = [
   },
   {
     prefixImage: "star",
+    label: "Computer hardware engineer",
+    route: "#",
+    className: "",
+  },
+  {
+    prefixImage: "star",
     label: "Network Engineer",
     route: "#",
     className: "",
@@ -34,6 +40,12 @@ export const MENUS: Menu[] = [
   {
     prefixImage: "star",
     label: "Network administrator",
+    route: "#",
+    className: "",
+  },
+  {
+    prefixImage: "star",
+    label: "Management",
     route: "#",
     className: "",
   },
@@ -87,7 +99,7 @@ export const MENUS: Menu[] = [
     className: "",
   },
   {
-    prefixIcon: "faTableColumns",
+    prefixImage: "icon_board",
     label: "My boards",
     route: "#",
     suffixImage:"mini_add",

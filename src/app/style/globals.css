@@ -3,6 +3,16 @@
   src: url("../fonts/Gilroy-Medium.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("../fonts/Gilroy-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url("../fonts/Gilroy-SemiBold.ttf") format("truetype");
+}
+
 :root {
   --background: #ffffff;
   --foreground: #4C4C55;
@@ -38,13 +48,19 @@ body {
 }
 
 .left-container {
-  width: 21rem;
-  height: 100vh;
+  width: 26rem;
 }
 
 .right-container {
-  padding: 32px;
+  padding: 32px 100px 0 100px;
   gap: 32px;
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (max-width:845px) {
+  .right-container {
+    padding-left: 120px;
+    padding-right: 25px;
+  }
 }

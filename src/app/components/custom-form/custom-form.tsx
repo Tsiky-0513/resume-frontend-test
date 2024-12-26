@@ -4,7 +4,9 @@ import React from 'react';
 import { useForm, SubmitHandler } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as Yup from "yup";
-import "./custom-form-style.css"
+import "./custom-form-style.css";
+import Link from "next/link";
+
 export default function CustomForm() {
   const validationSchema = Yup.object({
     firstName: Yup.string().required("Required"),
@@ -84,7 +86,7 @@ export default function CustomForm() {
       </div>
 
       <div className='description-container'>
-        <span>Use this email to log in to your resumedone.io account and receive notifications.</span>
+        <span>Use this email to log in to your <Link className='link' href="#">resumedone.io</Link> account and receive notifications.</span>
       </div>
         
       

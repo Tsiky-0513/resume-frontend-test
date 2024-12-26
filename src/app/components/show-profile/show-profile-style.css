@@ -1,0 +1,73 @@
+.delete-account-container {}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.custom-checkbox {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  display: inline-block;
+  appearance: auto;
+  -webkit-appearance: auto;
+  transition: all 0.2s ease;
+}
+
+.custom-checkbox:checked {
+  background-color: #1688fe; /* Couleur de fond lorsqu'il est coché */
+}
+
+.custom-checkbox::after {
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff; /* Couleur de la coche */
+  transform: rotate(45deg);
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  opacity: 0;
+  transition: all 0.2s ease;
+}
+
+.custom-checkbox:checked::after {
+  opacity: 1;
+}
+
+.confirmation-container h3{
+  color: #000000;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+
+.confirmation-container {
+  margin-top: 24px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.delete-button {
+  /* Red color */
+  text-align: left;
+  background-color: transparent;
+  color: red;
+  padding: 10px 0px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.link {
+  color: #1688FE;
+}
